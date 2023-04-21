@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Names List",
+    "version": "1.0",
+    "description": "Organize and generate names list from web page",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
